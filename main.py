@@ -1,4 +1,5 @@
 from ota import OTAUpdater
+from WIFI_CONFIG import *
 from screen_saver_balls import *
 from screen_saver_cubes import *
 from weather_main import ShowWeather
@@ -6,7 +7,7 @@ from num_pad_v2 import * # Lo res 240x240
 
 SSID = ""
 PASSWORD = ""
-firmware_url = "https://raw.githubusercontent.com/cbrooks/beacon/main"
+firmware_url = "https://raw.githubusercontent.com/cbrooks/beacon/"
 
 #from num_pad_v3 import * # Hi res 480x480
 # version 1.1 - yeah, it worked!
